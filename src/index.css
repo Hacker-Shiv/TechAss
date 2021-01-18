@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin-top: 50px;
+  display:inline-flex;
+  background-color: white;
+  font-family: sans-serif;
+  justify-content: center;
+  font-size: 1em;
+  height: 500px;
+  width: 100%;
+}
+
+.logo{
+  margin-top: 5px;
+  height: 100px;
+}
+
+#lg{
+  display: contents;
+}
+
+#root {
+  height: 100%;
+}
+
+@media (min-width: 300px) and (min-height: 500px) {
+  html {
+    font-size: 20px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
+
+@media (min-width: 300px) and (min-height: 600px) {
+  html {
+    font-size: 20px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+  html {
+    font-size: 20px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+  html {
+    font-size: 30px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+  html {
+    font-size: 40px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+  html {
+    font-size: 50px;
+  }
+  .logo{
+    height: 50px;
+  }
+}
